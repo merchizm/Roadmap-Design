@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600;700&display=swap');
+ 
+
 
 *::before,
 *::after {
@@ -13,13 +15,12 @@ body{
 
 .container{
     margin: 0;
-    background-color: #8bd3dd;
-    color: #001858;
+    background-color: #BDD8F6;
+    color: #5894C9;
     padding: 20px 120px;
 
     header{
         h3{
-            color: #dd246b;
             position: relative;
             padding-left: 60px;
             font-size: .9rem;
@@ -32,7 +33,7 @@ body{
                 height: 2px;
                 width: 50px;
                 content: "";
-                background: #dd246b;
+                background: #5894C9;
             }
         }
 
@@ -52,7 +53,7 @@ body{
                 width: 100%;
                 height: 0;
                 content: "";
-                border-bottom: 3px solid #f582ae;
+                border-bottom: 3px solid #3979B1;
             }
 
             &:after{
@@ -61,7 +62,7 @@ body{
                 width: 15px;
                 height: calc(100% + 3px);
                 content: "";
-                border: 3px solid #f582ae;
+                border: 3px solid #3979B1;
                 border-left: 0;
                 border-radius: 0 20px 20px 0;
                 right: -15px;
@@ -73,7 +74,7 @@ body{
                     text-align: center;
                     padding: 0 15px 54px;
                     span{
-                        color: #dd246b;
+                        color: #3979B1;
                         position: relative;
                         padding-bottom: 25px;
                         font-size: .8rem;
@@ -86,7 +87,7 @@ body{
                             left: 50%;
                             border-radius: 50%;
                             content: "";
-                            background: rgba(245, 130, 174, 0.342);
+                            background: rgba(13, 77, 130, 0.342);
                             margin-left: -13px;
                             margin-bottom: -8px;
                             height: 27px;
@@ -99,7 +100,7 @@ body{
                             left: 50%;
                             border-radius: 50%;
                             content: "";
-                            background: #f582ae;
+                            background: #19598e;
                             margin-left: -5px;
                             height: 11px;
                             width: 11px;
@@ -116,12 +117,12 @@ body{
     
                         &:before{
                             position: absolute;
-                            top: -10px;
+                            top: -13px;
                             left: 50%;
                             height: 40px;
                             width: 0;
                             content: "";
-                            border-right: 1px dashed #f582ae;
+                            border-right: 1px dashed rgba(13, 77, 130, 0.342);
                         }
                     }
     
@@ -171,7 +172,7 @@ body{
                 width: 100%;
                 height: 0;
                 content: "";
-                border-bottom: 1px dashed #f582ae;
+                border-bottom: 1px dashed #3979B1;
             }
             &:after{
                 position: absolute;
@@ -179,7 +180,7 @@ body{
                 width: 15px;
                 height: calc(100% - 30px);
                 content: "";
-                border: 1px dashed #f582ae;
+                border: 1px dashed #3979B1;
                 border-right: 0;
                 border-radius: 20px 0 0 20px;
                 left: -15px;
@@ -195,7 +196,7 @@ body{
                     padding: 0 40px;
 
                     span{
-                        color: #dd246b;
+                        color: #3979B1;
                         position: relative;
                         padding-bottom: 25px;
                         font-size: .8rem;
@@ -208,7 +209,7 @@ body{
                             left: 50%;
                             border-radius: 50%;
                             content: "";
-                            background: rgba(245, 130, 174, 0.342);
+                            background: rgba(13, 77, 130, 0.342);
                             margin-left: -13px;
                             margin-bottom: -8px;
                             height: 27px;
@@ -221,7 +222,7 @@ body{
                             left: 50%;
                             border-radius: 50%;
                             content: "";
-                            background: #f582ae;
+                            background: #19598e;
                             margin-left: -5px;
                             height: 11px;
                             width: 11px;
@@ -243,7 +244,7 @@ body{
                             height: 40px;
                             width: 0;
                             content: "";
-                            border-right: 2px solid #f582ae;
+                            border-right: 1px dashed #3979B1;
                         }
                     }
 
